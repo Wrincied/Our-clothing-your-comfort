@@ -30,7 +30,6 @@ body{
 }
 
 .wrapper{
-    height:4000px  ;
     header{
         color:#ffffff;
         position: relative;
@@ -89,7 +88,6 @@ body{
         max-width: 798px;
         font-size: 60px;
         font-weight: 400;
-        letter-spacing: normal;
     }
     p{
         font-family: "Quicksand Book";
@@ -97,6 +95,7 @@ body{
         font-size: 20px;
         line-height: 1.6;
         font-weight: 400;
+        text-align: center;
     }
     .scroll{
         a{
@@ -140,8 +139,7 @@ body{
     }
     .filter-submit{
         padding: 64px 49px;
-        button{
-            
+        button{         
             width: 204px;
             height: 52px;
             background-color: #aa9b77;
@@ -154,5 +152,28 @@ body{
             border-radius: 3px;
         }
 
+    }
+}
+.about{
+    background-color: #aa9b77;
+    width: 100%;
+    height: 402px;
+.about-div{
+    background-color: #aa9b77;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .title{
+        p{
+            font-family: 'Quicksand Bold';
+        }
+    }
+        .text{
+            p{
+            font-family: 'Quicksand Bold';
+            }
+        }
     }
 }
